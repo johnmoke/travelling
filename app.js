@@ -23,7 +23,7 @@ app.set('view engine', 'ejs');
 // //save the data to the database
 // cr.save();
 
-mongoose.connect('mongodb://localhost/travel', { useNewUrlParser: true ,useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://jigoro:2020Kar@13@mycluster-4hgyq.mongodb.net/travel', { useNewUrlParser: true ,useUnifiedTopology: true });
 app.use(express.json());  // Because the data shld be sent in the json format, we convert these
 
 // Adding images file to the console and the foler 
